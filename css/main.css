@@ -1,0 +1,219 @@
+body {
+  overflow-x: hidden;
+  width: 100%;
+  font: 15px "Century Gothic", "Times Roman", sans-serif;
+  background: #eee;
+  min-height: 550px;
+  background-attachment: fixed;
+}
+.bg {
+  min-height: 590px;
+}
+.bg1 {
+  background: url(../image/13.jpg);
+  min-height: 590px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+@font-face {
+  font-family: "typo";
+  src: url("../fonts/typo.ttf");
+}
+
+@font-face {
+  font-family: "gothic";
+  src: url("../fonts/gothics.ttf");
+}
+
+.panel {
+  border-color: #eee;
+  margin: 40px;
+  padding: 20px;
+  font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.title {
+  font-family: "typo";
+}
+
+.header {
+  background: #202020;
+  height: 70px;
+}
+.logo {
+  font-family: "typo";
+  font-size: 35px;
+  color: #ffbb33;
+  margin: 15px;
+}
+
+.title1 {
+  font: 16px "Century Gothic", "Times Roman", sans-serif;
+}
+.title2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+
+.sub1 {
+  width: 90px;
+  color: #202020;
+  background: orange;
+  font-size: 15px;
+  height: 35px;
+  margin: 20px;
+  padding: 10px;
+  width: 100px;
+}
+
+.sub {
+  width: 100%;
+  background-color: #9acd32;
+  font-size: 20px;
+  padding: 2px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.sub:hover {
+  color: #fff;
+}
+
+.footer {
+  font-size: 15px;
+  text-align: center;
+  border-top: 1px solid;
+  border-color: #323232;
+  background-color: #202020;
+}
+.footer a {
+  margin: 25px;
+  color: orange;
+  text-decoration: none;
+  font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: #9acd32;
+  border-top: 2px solid;
+  border-color: orange;
+}
+
+.box {
+  padding: 9px;
+}
+hr {
+  color: #000000;
+}
+.top {
+  margin-top: 20px;
+}
+.log1 {
+  font: 15px "Ubuntu", sans-serif;
+  color: orange;
+  margin-left: 10px;
+}
+
+.log {
+  margin: 10px;
+  margin-right: 60px;
+  margin-left: 5px;
+  color: orange;
+  text-decoration: none;
+  font-size: 20px;
+  font-size: 15px;
+}
+.log:hover {
+  color: #9acd32;
+  border-top: 2px solid;
+  border-color: orange;
+  text-decoration: none;
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+  @media (max-width: 758px) {
+    html {
+      font-size: 62.5%;
+    }
+    #hamburger-menu {
+      display: inline-block;
+    }
+
+    .log {
+      position: absolute;
+      top: 100%;
+      right: -100%;
+      background-color: #fff;
+      width: 30rem;
+      height: 100vh;
+      transition: 0.3s;
+    }
+
+    .log1 {
+      color: var(--bg);
+      display: block;
+      margin: 1.5rem;
+      padding: 0.5rem;
+      font-size: 2rem;
+    }
+
+    .log1 {
+      transform-origin: 0 0;
+    }
+
+    .log1 {
+      transform: scaleX(0.2);
+    }
+    .about .row {
+      flex-wrap: wrap;
+    }
+    .about .row .about-img img {
+      height: 24rem;
+      object-fit: cover;
+      object-position: center;
+    }
+    .about .row .content {
+      padding: 0;
+    }
+
+    .about .row .content h3 {
+      margin-top: 1rem;
+      font-size: 2rem;
+    }
+
+    .about .row .content p {
+      font-size: 1.6rem;
+    }
+    .staff .card {
+      width: 100%;
+      padding: 5em 1em;
+    }
+
+    .staff .column {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+      padding: 0 0.4em;
+    }
+    .contact .row {
+      flex-wrap: wrap;
+    }
+    .contact .row .map {
+      height: 30rem;
+    }
+
+    .contact .row form {
+      padding-top: 0;
+    }
+  }
+
+  @media (max-width: 450px) {
+    html {
+      font-size: 55%;
+    }
+  }
+}

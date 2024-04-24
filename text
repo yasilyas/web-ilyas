@@ -1,0 +1,29 @@
+http://yugeshverma.blogspot.in
+
+<form class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Enter  " />
+  </div>
+  <button type="submit" class="btn btn-default">
+    <span class="glyphicon glyphicon-search" aria-hidden="true"></span
+    >&nbsp;Search
+  </button>
+</form>
+
+<div class="navbar-extra">
+  <a href="#" id="search"> <i data-feather="search"></i></a>
+  <a href="#" id="hamburger-menu"> <i data-feather="menu"></i></a>
+</div>
+
+<div class="form-group">
+  <label class="col-md-12 control-label" for="tag"></label>
+  <div class="col-md-12">
+    <input
+      id="tag"
+      name="tag"
+      placeholder=""
+      class="form-control input-md"
+      type="text"
+    />
+  </div>
+</div>
